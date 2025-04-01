@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: contosio-air-config
+  namespace: dev
+  labels:
+    app.kubernetes.io/name: contosio-air
+    kubernetes.azure.com/generator: devhub
+data:
